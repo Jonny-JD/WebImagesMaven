@@ -1,0 +1,30 @@
+/*Personal page*/
+
+#personal {
+    margin: auto;
+    padding: 5% 5%;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 10%;
+    padding: 5% 0;
+    display: grid;
+    /* Define Auto Row size */
+    grid-auto-rows: auto;
+    /*Define our columns */
+    grid-template-columns: repeat(3, minmax(30%, 30%));
+    grid-gap: 1em;
+    justify-content: center;
+    border-top: ridge rgb(128, 128, 128);
+
+}
+
+
+article > .users-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
